@@ -76,3 +76,44 @@ lumin-quiz-app/
 | 67–80%        | Master    |
 | 40–66%        | Learner   |
 | < 40%         | Beginner  |
+
+
+---
+
+## Contributions are Welcome 
+Just follow the following steps
+
+1. Fork the repo
+
+2. Clone the forked repo
+```bash
+   git clone <your_forked_repo_url>
+```
+
+3. Setup backend `.env`
+```bash
+
+```
+
+4. Go to backend folder and install dependencies
+```bash
+   cd server
+   npm install
+   cd ..
+```
+
+5. Go to Frontend folder and install dependencies
+```bash
+   cd client
+   npm install
+```
+
+7. Start Backend
+```bash
+   node server.js
+```
+
+8. Start Frontend
+```bash
+   npm run dev
+```
